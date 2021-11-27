@@ -1,6 +1,6 @@
 var express = require("express");
 var app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000; // bardzo istotna linijka - port zostaje przydzielony przez Heroku
 var formidable = require('formidable');
 var path = require("path");
 var hbs = require('express-handlebars');
