@@ -70,6 +70,7 @@ app.post("/uplaud", function (req, res) {
                 savedata: file.lastModifiedDate,
             } 
             tab_of_files.push(f);
+            res.render('index01.hbs');
         }
         else
         {
@@ -100,11 +101,10 @@ app.post("/uplaud", function (req, res) {
                 } 
                 tab_of_files.push(f);
             });
+            res.render('index01.hbs');
         }
         //res.send(files);
-    });
-
-    res.render('index01.hbs');
+    }); 
 })
 
 app.post("/info", function (req, res) {
