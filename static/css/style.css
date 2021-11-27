@@ -1,0 +1,171 @@
+.menu
+{
+    background-color: blue;
+    margin: 0px;
+    padding: 25px;
+}
+.menu_element
+{
+    display: inline;
+    margin-right: 25px;
+}
+a
+{
+    color: white;
+}
+
+.side_menu
+{
+    background-color: lightgray;
+    float:left;
+    width: 20%;
+    height: 85vh;
+    text-align: center;
+}
+
+.content
+{
+    background-color: white;
+    float:left;
+    width: 80%;
+    height: 85vh;
+}
+table
+{
+    width: 100%;
+}
+.menu_tab
+{
+    background-color: lightskyblue;
+}
+
+
+.any
+{
+    background-image: url(/gfx/ANY.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+}
+.css
+{
+    background-image: url(/gfx/CSS.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+}
+.doc
+{
+    background-image: url(/gfx/DOC.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+}
+.docx
+{
+    background-image: url(/gfx/DOCX.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+}
+.gif
+{
+    background-image: url(/gfx/GIF.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+}
+.html
+{
+    background-image: url(/gfx/HTML.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+}
+.jpg
+{
+    background-image: url(/gfx/JPG.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+}
+.js
+{
+    background-image: url(/gfx/JS.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+}
+.mp3
+{
+    background-image: url(/gfx/MP3.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+}
+.mp4
+{
+    background-image: url(/gfx/MP4.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+}
+.pdf
+{
+    background-image: url(/gfx/PDF.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+}
+.php
+{
+    background-image: url(/gfx/PHP.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+}
+.png
+{
+    background-image: url(/gfx/PNG.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+}
+.rar
+{
+    background-image: url(/gfx/RAR.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+}
+.txt
+{
+    background-image: url(/gfx/TXT.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+}
+.zip
+{
+    background-image: url(/gfx/ZIP.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+}
+

@@ -1,0 +1,44 @@
+<div class="menu">
+    <ul>
+        <li class="menu_element"><a href="/uplaud" >UPLAUD</a></li>
+        <li class="menu_element"><a href="/filemanager" >FILEMANEGER</a></li>
+        <li class="menu_element"><a href="/info" >INFO</a></li>
+    </ul>
+</div>
+<div class="side_menu">
+    <p>filemanager</p>
+    <form enctype="application/x-www-form-urlencoded" method="POST">
+        <input type="submit" formaction="/filemanager" name="typ" value="delet_all">
+    </form>
+</div>
+<div class="content">
+    <table>
+        <tr class="menu_tab">
+            <th>id</th>
+            <th>obraz</th>
+            <th>name</th>
+            <th>size</th>
+            <th>type</th>
+            <th>-</th>
+            <th>-</th>
+            <th>-</th>
+        </tr>
+        {{#each data}}
+            <tr>
+                <form enctype="application/x-www-form-urlencoded" method="POST">
+                    <th>{{id}}<input type="hidden" value="{{id}}" name="id"></th>
+                    <th class="{{file_type}}"></th>
+                    <th>{{name}}</th>
+                    <th>{{size}}</th>
+                    <th>{{type}}</th>
+                    <th><input type="submit" formaction="/filemanager" name="typ" value="delete"></th>
+                    <th><input type="submit" formaction="/info" name="typ" value="info"></th>
+                    <th><input type="submit" formaction="/download" name="typ" value="download"></th>
+                </form>
+            </tr>
+        {{/each}}
+    </table>
+    
+        
+
+</div>
